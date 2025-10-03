@@ -110,8 +110,5 @@ function Seiko() {
   );
 }
 
-<<<<<<< HEAD
+
 export default Seiko;
-=======
-export default Seiko;
->>>>>>> 3507f23 (Add built files for deployment)

@@ -10,11 +10,8 @@
     left: -200px;
     top: 0;
     width: 200px;
-<<<<<<< HEAD
 	background-image: url("../profilecard/images/bg-pattern-card.svg");
-=======
 	background-image: url("../../../public/images/images/bg-pattern-card.svg");
->>>>>>> 3507f23 (Add built files for deployment)
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,19 +76,16 @@
 
 .sidebar .btn{
     position: absolute;
-<<<<<<< HEAD
     right: -60px;
     top: 19px;
 	background-image: url("../profilecard/images/bg-pattern-card.svg");
     width: 60px;
     height: 60px;
-=======
     right: -55px;
     top: 19px;
 	background-image: url("../../../public/images/images/bg-pattern-card.svg");
     width: 70px;
     height: 70px;
->>>>>>> 3507f23 (Add built files for deployment)
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,9 +95,6 @@
 }
 
 
-/* YourStyles.css */  
-/* liner bardarim ham behemoon yek animation ziba mideh*/
-<<<<<<< HEAD
 .cog {  
     font-size: 30px;  
     color: #000000e8;  
@@ -139,4 +130,3 @@
     transform: rotate(360deg);
   }
 }
->>>>>>> 3507f23 (Add built files for deployment)

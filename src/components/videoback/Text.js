@@ -35,8 +35,5 @@ function Text() {
   );
 }  
 
-<<<<<<< HEAD
+
 export default Text;
-=======
-export default Text;
->>>>>>> 3507f23 (Add built files for deployment)

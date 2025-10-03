@@ -47,8 +47,5 @@ function Profile() {
   );  
 }  
 
-<<<<<<< HEAD
+
 export default Profile;
-=======
-export default Profile;
->>>>>>> 3507f23 (Add built files for deployment)

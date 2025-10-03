@@ -126,8 +126,5 @@ const [isVisible] = useState(true);
   );
 }
 
-<<<<<<< HEAD
+
 export default Card;
-=======
-export default Card;
->>>>>>> 3507f23 (Add built files for deployment)

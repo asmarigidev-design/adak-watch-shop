@@ -61,8 +61,5 @@ const handleAddProduct = (product) => {
   );
 }
 
-<<<<<<< HEAD
+
 export default Products;
-=======
-export default Products;
->>>>>>> 3507f23 (Add built files for deployment)

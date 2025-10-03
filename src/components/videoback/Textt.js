@@ -28,8 +28,5 @@ function Textt() {
   );
 }  
 
-<<<<<<< HEAD
+
 export default Textt;
-=======
-export default Textt;
->>>>>>> 3507f23 (Add built files for deployment)

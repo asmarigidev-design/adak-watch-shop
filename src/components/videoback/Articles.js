@@ -23,8 +23,4 @@ function Articles () {
   );
 }
 
-<<<<<<< HEAD
 export default Articles;
-=======
-export default Articles;
->>>>>>> 3507f23 (Add built files for deployment)

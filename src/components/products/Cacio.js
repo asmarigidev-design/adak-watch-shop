@@ -115,8 +115,4 @@ function Cacio() {
   );
 }
 
-<<<<<<< HEAD
 export default Cacio;
-=======
-export default Cacio;
->>>>>>> 3507f23 (Add built files for deployment)

@@ -28,8 +28,5 @@ function Videoback() {
   );
 }  
 
-<<<<<<< HEAD
+
 export default Videoback;
-=======
-export default Videoback;
->>>>>>> 3507f23 (Add built files for deployment)

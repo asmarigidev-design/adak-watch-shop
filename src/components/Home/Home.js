@@ -55,11 +55,9 @@ function Home() {
             <section>
                 <div className="containerr"> {/* بخش معرفی با متن تایپ‌شونده و توضیح برند // Intro section with typing text and brand description */}
                     <h1 className="top-layer"><span>{letter}</span></h1> {/* نمایش متن تایپ‌شده در هدر // Display typed text in header */}
-<<<<<<< HEAD
                     <p>ساعت‌های آداک سفیر زمان و سبک زندگی شما </p> {/* توضیح کوتاه درباره برند آداک // Short description about Adak brand */}
-=======
+
                     <p>ساعت‌های آداک سفیر زمان و سبک زندگی شما هستند</p> {/* توضیح کوتاه درباره برند آداک // Short description about Adak brand */}
->>>>>>> 3507f23 (Add built files for deployment)
                 </div>
             </section>
 
@@ -72,8 +70,4 @@ function Home() {
     );
 }
 
-<<<<<<< HEAD
 export default Home; 
-=======
-export default Home; 
->>>>>>> 3507f23 (Add built files for deployment)

@@ -8,8 +8,4 @@ const formatCurrency = (amount) => {
      return amount.toFixed() + " تومان"; // نمایش قیمت به صورت عدد صحیح همراه با واحد | Show price as integer with currency
 };  
  
-<<<<<<< HEAD
 export default formatCurrency; // خروجی گرفتن تابع برای استفاده در سایر فایل‌ها | Export function for reuse
-=======
-export default formatCurrency; // خروجی گرفتن تابع برای استفاده در سایر فایل‌ها | Export function for reuse
->>>>>>> 3507f23 (Add built files for deployment)

@@ -107,9 +107,4 @@ function Rolex() {
     </div>  
   );  
 }  
-
-<<<<<<< HEAD
 export default Rolex;
-=======
-export default Rolex;
->>>>>>> 3507f23 (Add built files for deployment)

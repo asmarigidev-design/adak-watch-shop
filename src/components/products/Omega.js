@@ -110,8 +110,5 @@ function Omega() {
   );
 }
 
-<<<<<<< HEAD
+
 export default Omega;
-=======
-export default Omega;
->>>>>>> 3507f23 (Add built files for deployment)

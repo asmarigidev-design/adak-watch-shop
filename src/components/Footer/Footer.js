@@ -1,40 +1,4 @@
-<<<<<<< HEAD
-import React from 'react';  
-import './Footer.css'; // اطمینان حاصل کنید که این فایل CSS را در کنار این فایل دارید  
-import { FaTelegramPlane, FaWhatsapp, FaInstagram, FaYoutube } from 'react-icons/fa';
 
-const Footer = () => {  
-    return (  
-        <footer className="footer">  
-            <div className="footer-container">  
-                <div className="footer-left">  
-                    <h2> فروشگاه ساعت آداک </h2>  
-                    <h2>ساعت‌های لوکس و با کیفیت را با بهترین قیمت‌ها خریداری کنید.</h2>  
-                </div>  
-                <div className="footer-middle">  
-                    <ul>  
-                        <li><a href="#">درباره ما</a></li>  
-                        <li><a href="#"> پشتیبانی</a></li>  
-                      <li><a href="#">آموزش ها </a></li>  
-                    </ul>  
-                </div>  
-                <div className="footer-right">  
-                    <div className="social-icons">  
-                        <a href="#"><FaInstagram /><i className="fab fa-facebook-f"></i></a>  
-                        <a href="#"><FaTelegramPlane /><i className="fab fa-instagram"></i></a>  
-                        <a href="#"><FaWhatsapp /><i className="fab fa-twitter"></i></a>  
-                        <a href="#"><FaYoutube /><i className="fab fa-youtube"></i></a>  
-                    </div>  
-                </div>  
-            </div>  
-            <div className="footer-bottom">  
-            </div>  
-        </footer>  
-    );  
-};  
-
-export default Footer;  
-=======
 import React from 'react'; 
 import './Footer.css'; // ایمپورت فایل CSS برای استایل‌دهی فوتر // Importing CSS file for footer styling
 import { FaTelegramPlane, FaWhatsapp, FaInstagram, FaYoutube } from 'react-icons/fa'; // ایمپورت آیکون‌های شبکه اجتماعی از کتابخانه react-icons // Importing social media icons from react-icons
@@ -70,4 +34,3 @@ const Footer = () => { // تعریف کامپوننت فوتر // Defining the F
 };
 
 export default Footer;
->>>>>>> 3507f23 (Add built files for deployment)

@@ -1,38 +1,4 @@
-<<<<<<< HEAD
-// Menouicon.js  
-import React, { useState } from "react";  
-import './Menouicon.css';  
-import prof from "./prof.webp";  
-import { FaCog } from 'react-icons/fa'; // وارد کردن آیکن چرخ‌دنده از Font Awesome  
 
-function Menouicon() {  
-    const [isActive, setIsActive] = useState(false); // برای مدیریت نمایش sidebar  
-
-    // تابع برای برچسب زدن به دکمه  
-    const toggleSidebar = () => {  
-        setIsActive(!isActive);  
-    };  
-
-    return (  
-        <div className="menuu">  
-
-            <div className={`sidebar ${isActive ? 'active' : ''}`}>  
-                <div className="btn" onClick={toggleSidebar}>  
-                    <div className="cog">  <FaCog /></div>  
-                </div>  
-                <img src={prof} alt="Profile" />  
-                <ul>  
-                    <li><a href="#">ثبت سفارش</a></li>  
-                    <li><a href="#">پشتیبانی</a></li>  
-                    <li><a href="#">پیگیری سفارش</a></li>  
-                </ul>  
-            </div>  
-        </div>  
-    );  
-}  
-
-export default Menouicon; // صادرات کامپوننت
-=======
 import React, { useState } from "react"; // مدیریت وضعیت برای باز و بسته شدن سایدبار // State management for sidebar toggle
 import './Menouicon.css'; // استایل‌دهی به منو و سایدبار // Styling for menu and sidebar
 import prof from "./prof.webp"; // تصویر پروفایل کاربر // User profile image
@@ -65,4 +31,3 @@ function Menouicon() {
 }
 
 export default Menouicon; // خروجی گرفتن از کامپوننت برای استفاده در صفحه اصلی // Exporting component for use in main page
->>>>>>> 3507f23 (Add built files for deployment)
