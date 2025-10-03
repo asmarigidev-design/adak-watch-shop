@@ -1,0 +1,117 @@
+.mahv{
+
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+
+
+.containerrr{
+    width: 1200px;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+
+    
+}
+
+
+
+.header #bg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background: url('../../../public/images/images//wach.jpg');
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+section{
+    padding: 100px;
+    text-align: center;
+    color: #ffffff;
+}
+
+section h2{
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+
+.top-layer {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    cursor: pointer;
+    color: #1abdc0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap; /* جلوگیری از شکستن متن */
+    flex-shrink: 0; /* جلوگیری از کوچک شدن متن */
+    padding: 10px; /* فاصله داخلی */
+    font-size: 4.5rem; /* اندازه فونت متناسب */
+}
+
+p {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    cursor: pointer;
+    color: #2edfe2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;   
+    flex-wrap: nowrap;
+    white-space: nowrap; /* جلوگیری از شکستن متن */
+    flex-shrink: 0; /* جلوگیری از کوچک شدن متن */
+    padding: 10px; /* فاصله داخلی */
+    font-size: 4.2rem; /* اندازه فونت متناسب */
+}
+
+/* Media Queries برای ریسپانسیو کردن */
+@media (max-width: 768px) {
+    .top-layer {
+        font-size: 2.5rem; /* کاهش اندازه فونت برای صفحات کوچکتر */
+        top: 40%; /* تنظیم موقعیت برای صفحات کوچکتر */
+    }
+
+    p {
+        font-size: 2rem; /* کاهش اندازه فونت برای صفحات کوچکتر */
+        top: 65%; /* تنظیم موقعیت برای صفحات کوچکتر */
+    }
+}
+
+
+
+    h1 {  
+        color: #fff;  
+        font-size: 60px;  
+        font-weight: bold;  
+    }  
+    
+    h1 span {  
+        color: #00f2ff;  
+        font-weight: bold;  
+    }  
+    
+    h1 span::after {  
+        content: '';  
+        background:#00f2ff;  
+
+        border-right: 4px solid #00f2ff;  
+        margin-right: 5px;  
+        animation: blink .5s infinite ease;  
+        -webkit-animation: blink .5s infinite ease;  
+    } 
