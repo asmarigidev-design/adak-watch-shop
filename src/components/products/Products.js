@@ -7,7 +7,7 @@ function Products(props) {
   const { addProducts } = useCart();
 
 const handleAddProduct = (product) => {
-  const result = addProducts(product, true); // فقط بررسی می‌کنه که آیا وجود دارد
+  const result = addProducts(product, true); //It just checks if it exists فقط بررسی می‌کنه که آیا وجود دارد
 
   if (result === 'exists') {
     Swal.fire({
@@ -19,7 +19,7 @@ const handleAddProduct = (product) => {
       cancelButtonText: 'خیر، نمی‌خوام'
     }).then((res) => {
       if (res.isConfirmed) {
-        addProducts(product); // حالا واقعاً اضافه می‌کنه
+        addProducts(product); //Now it really adds up. حالا واقعاً اضافه می‌کنه
         Swal.fire({
           icon: 'success',
           title: 'محصول اضافه شد',
@@ -30,7 +30,7 @@ const handleAddProduct = (product) => {
       }
     });
   } else if (result === 'added') {
-    addProducts(product); // محصول جدید رو اضافه کن
+    addProducts(product); //Add new product محصول جدید رو اضافه کن
     Swal.fire({
       icon: 'success',
       title: 'محصول اضافه شد',

@@ -1,4 +1,3 @@
-
 import React, { createContext, useContext, useState } from 'react';
 
 const CartContext = createContext();
@@ -36,8 +35,15 @@ export const CartProvider = ({ children }) => {
     }
   };
 
+  //New function to completely delete a product تابع جدید برای حذف کامل محصول
+  const deleteProductCompletely = (product) => {
+    setCartItems(cartItems.filter((item) => item.id !== product.id));
+  };
+
   return (
-    <CartContext.Provider value={{ cartItems, addProducts, removeProducts }}>
+    <CartContext.Provider
+      value={{ cartItems, addProducts, removeProducts, deleteProductCompletely }}
+    >
       {children}
     </CartContext.Provider>
   );

@@ -4,7 +4,7 @@ import Products from "./Products";
 import data from './data.json';  
 import { useCart } from '../shopping-cart/CartContext';  
 import { FaHome, FaShoppingCart } from 'react-icons/fa';
-import { Link } from 'react-router-dom'; // اصلاح ایمپورت
+import { Link } from 'react-router-dom'; 
 
 function Omega() {  
   const [item, setItem] = useState(data.productssss || []);
@@ -89,20 +89,20 @@ function Omega() {
             <Products item={item} addProducts={addProducts} />
           </div>
 
-          {/* سایدبار فقط برای دسکتاپ */}
+          {/* Sidebar for desktop only  سایدبار فقط برای دسکتاپ  */}
           <div className="sidebarr">
             <Card cartItems={cartItems} removeProducts={removeProducts} />
           </div>
         </div>
       </main>
 
-      {/* سبد خرید شناور فقط در موبایل */}
+      {/*Floating shopping cart only on mobile  سبد خرید شناور فقط در موبایل */}
       {showMobileCart && (
         <div className="mobile-cart-popup">
          <Card
       cartItems={cartItems}
       removeProducts={removeProducts}
-      onClose={() => setShowMobileCart(false)} // فقط سبد خرید رو می‌بنده
+      onClose={() => setShowMobileCart(false)} //It just closes the shopping cart. فقط سبد خرید رو می‌بنده
     />
         </div>
       )}

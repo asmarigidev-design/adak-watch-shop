@@ -35,7 +35,7 @@
     padding: 10px;
     font-size: large;
     box-sizing: border-box;
-    filter: brightness(80%); /* تیره‌تر کردن تصویر */ 
+    filter: brightness(80%); 
 
     transition: transform 0.3s, background-color 0.3s, color 0.3s;
 }
@@ -44,13 +44,12 @@
     color: rgb(209, 0, 0);
     transform: scale(0.75);
     box-shadow: 0 4px 8px rgba(9, 251, 255, 0.732);
-    filter: brightness(100%); /* تیره‌تر کردن تصویر */ 
+    filter: brightness(100%); 
 cursor: pointer;
 font-size: x-large;
 
 }
 
-/* استایل‌های ریسپانسیو */
 @media (max-width: 768px) {
     .watch-button {
         width: 100%;

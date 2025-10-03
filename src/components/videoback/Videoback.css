@@ -3,21 +3,20 @@
     position: relative;  
     bottom: 0;  
     width: 100%;  
-    height: 100vh; /* 60% از ارتفاع صفحه */  
+    height: 100vh;
     overflow: hidden;  
-    border-top: 5px solid #2edfe2ce; /* بردر بالا پهن */  
-    border-bottom: 5px solid #2edfe2ce; /* بردر پایین پهن */  
+    border-top: 5px solid #2edfe2ce;  
+    border-bottom: 5px solid #2edfe2ce; 
 }  
 .vid{
     white:100%;
-
 }
 
 .background-video {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* ویدیو را به صورت پوششی تنظیم می‌کند */
-    filter: brightness(1); /* اضافه کردن فیلتر برای زیبایی بیشتر */
+    object-fit: cover;
+    filter: brightness(1);
 }
 
 .overlay {
@@ -33,12 +32,12 @@
 .overlay h1 {
     font-size: 4.5rem;
     margin: 3rem;
-    background-color: rgba(47, 123, 142, 0.718); /* پس زمینه نیمه شفاف */
+    background-color: rgba(47, 123, 142, 0.718); 
     padding: 0.5rem;
     flex-wrap: nowrap;
-    white-space: nowrap; /* جلوگیری از شکستن متن */
-    flex-shrink: 0; /* جلوگیری از کوچک شدن متن */
-    padding: 10px; /* فاصله داخلی */
+    white-space: nowrap; 
+    flex-shrink: 0;
+    padding: 10px; 
 }
 
 .overlay p {
@@ -46,7 +45,7 @@
 
     font-size: 1.5rem;
     margin: 5rem;
-    background-color: rgba(0, 0, 0, 0.5); /* پس زمینه نیمه شفاف */
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 0.5rem;
 }
 .textt{
@@ -56,22 +55,21 @@
     align-items: center;
     padding-top: 3%;
     width: 100%;
-    padding: 5% 3%; /* فضای داخلی */  
-    text-align: center; /* تراز متن */  
+    padding: 5% 3%;  
+    text-align: center; 
     margin-bottom: 5%;
 
 }
 .textt h1{
-        padding: 3% 3%; /* فضای داخلی */  
-
-    font-size: x-large;
+     padding: 3% 3%;   
+     font-size: x-large;
     color: rgba(175, 242, 248, 0.842);
     
 }
 .text h1{
     font-size: x-large;
     color: rgba(175, 242, 248, 0.842);
-    padding: 3% 3%; /* فضای داخلی */  
+    padding: 3% 3%; 
 
     
 }

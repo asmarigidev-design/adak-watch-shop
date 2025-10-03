@@ -17,8 +17,4 @@ function MobileSidebar() {
   );
 }
 
-<<<<<<< HEAD
 export default MobileSidebar;
-=======
-export default MobileSidebar;
->>>>>>> 3507f23 (Add built files for deployment)

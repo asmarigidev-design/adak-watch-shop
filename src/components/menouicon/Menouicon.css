@@ -76,12 +76,11 @@
 
 .sidebar .btn{
     position: absolute;
-    right: -60px;
     top: 19px;
 	background-image: url("../profilecard/images/bg-pattern-card.svg");
     width: 60px;
     height: 60px;
-    right: -55px;
+    right: -60px;
     top: 19px;
 	background-image: url("../../../public/images/images/bg-pattern-card.svg");
     width: 70px;
@@ -96,7 +95,7 @@
 
 
 .cog {  
-    font-size: 30px;  
+    font-size: 25px;  
     color: #000000e8;  
     animation: fa-spin 2s infinite linear;  
 }  
