@@ -1,0 +1,73 @@
+.footer {  
+    
+	background-image: url("../../../public/images/images/bg-pattern-card.svg");
+    color: #000000; /* رنگ متن */  
+    padding: 40px 20px; /* فضای داخلی */  
+    text-align: center; /* تراز متن */  
+    width: 100%;
+    flex-wrap: wrap;
+}  
+
+.footer-container {  
+    display: flex; /* نمایش به صورت افقی */  
+    justify-content: space-between; /* فاصله بین عناصر */  
+    flex-wrap: wrap; /* محتوای ریسپانسیو */  
+}  
+
+.footer-left, .footer-middle, .footer-right {  
+    flex: 1; /* هر بخش فضای مساوی بگیرد */  
+    margin: 10px; /* فاصله بین بخش‌ها */  
+}  
+
+.footer h2, .footer h3 {  
+    margin-bottom: 15px; /* فاصله فوقانی */  
+}  
+
+.footer ul {  
+    list-style: none; /* حذف نقطه‌های لیست */  
+    padding: 0; /* حذف فاصله داخلی */  
+}  
+
+.footer ul li {  
+    margin: 8px 0; /* فاصله بین لیست‌ها */ 
+    font-size: large; 
+}  
+
+.footer a {  
+    color: #000000; /* رنگ لینک‌ها */  
+    text-decoration: none; /* لمس زیر لینک‌ها */
+
+}  
+
+.footer a:hover {  
+    color: #b70000; /* رنگ لینک‌ها */  
+}  
+
+.social-icons  {  
+
+    display: flex; /* نمایش به صورت افقی */  
+    justify-content: center; /* تراز وسط */  
+font-size: xx-large;
+}  
+
+
+.social-icons a {  
+    margin: 20px 20px; /* فاصله بین آیکن‌ها */  
+    color: #040404; /* رنگ آیکن‌ها */  
+}  
+
+.footer-bottom {  
+    margin-top: 20px; /* فاصله فوقانی */  
+    font-size: 0.9rem; /* سایز متن */  
+}  
+
+@media (max-width: 768px) { 
+
+    .footer-container {  
+        display: inline-block; /* نمایش به صورت افقی */  
+        justify-content: space-between; /* فاصله بین عناصر */  
+        flex-wrap: wrap; /* محتوای ریسپانسیو */  
+    } 
+
+
+}

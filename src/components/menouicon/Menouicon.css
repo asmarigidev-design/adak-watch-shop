@@ -1,0 +1,131 @@
+
+.menuu{
+    height:20vh;
+}
+
+
+.sidebar{
+    height: 100vh;
+    position: fixed;
+    left: -200px;
+    top: 0;
+    width: 200px;
+	background-image: url("../profilecard/images/bg-pattern-card.svg");
+	background-image: url("../../../public/images/images/bg-pattern-card.svg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    transition: left .4s ease-in-out;
+    -webkit-transition: left .4s ease-in-out;
+    -moz-transition: left .4s ease-in-out;
+    -ms-transition: left .4s ease-in-out;
+    -o-transition: left .4s ease-in-out;
+    z-index: 2000;
+}
+
+.sidebar.active{
+    left: 0;
+}
+.sidebar .btn{
+    visibility: visible;
+}
+
+.sidebar img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    object-fit: cover;
+}
+
+.sidebar ul{
+    list-style: none;
+    margin: 50px auto;
+    width: 100%;
+}
+
+.sidebar ul li{
+    text-align: center;
+    border-bottom: 1px solid #0c0c0c;
+    border-top: 1px solid #000000;
+    transition: background .3s ease-in-out;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    -ms-transition: background .3s ease-in-out;
+    -o-transition: background .3s ease-in-out;
+}
+
+.sidebar ul li:hover{
+    background: #000000;
+}
+.sidebar ul li a:hover{
+    color: #12ffff;
+
+}
+.sidebar ul li a{
+    color: #060505;
+    text-decoration: none;
+    padding: 10px 0;
+    display: block;
+}
+
+
+.sidebar .btn{
+    position: absolute;
+    top: 19px;
+	background-image: url("../profilecard/images/bg-pattern-card.svg");
+    width: 60px;
+    height: 60px;
+    right: -60px;
+    top: 19px;
+	background-image: url("../../../public/images/images/bg-pattern-card.svg");
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+   
+}
+
+
+.cog {  
+    font-size: 25px;  
+    color: #000000e8;  
+    animation: fa-spin 2s infinite linear;  
+}  
+.cog:hover {  
+    font-size: 35px;  
+    color: #020303c7;  
+    animation: fa-spin 2s infinite linear;  
+}  
+
+@keyframes fa-spin {  
+    0% { transform: rotate(0deg); }  
+    100% { transform: rotate(360deg); }  
+}
+=======
+.cog {
+  font-size: 30px;
+  color: #000000e8;
+  animation: fa-spin 2s infinite linear;
+  display: inline-block; /* مهم برای چرخش درست */
+  transform-origin: center center; /* مرکز چرخش */
+}
+
+.cog:hover {
+  color: #020303c7;
+}
+@keyframes fa-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
